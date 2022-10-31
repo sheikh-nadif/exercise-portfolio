@@ -1,0 +1,170 @@
+body{
+    font-family: 'Dosis', sans-serif;
+    margin: 0px;
+}
+
+section{
+    height: 550px;
+    padding-bottom: 200px ;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1{
+    font-size: 40px;
+    color: rgb(31, 31, 31);
+}
+
+.highlight{
+    font-size: 50px;
+    text-size-adjust: auto;
+    background: -webkit-linear-gradient(275deg, rgb(255, 0, 34), rgb(255, 196, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media only screen and (max-width: 460px) {
+    .highlight{
+        font-size: 40px; }
+}
+@media only screen and (max-width: 460px) {
+    .highlight{
+        font-size: 30px; }
+}
+
+
+.half-wid{
+    width: 36%;
+    float: left;
+    margin: 25px 18px;
+    padding: 5px;
+}
+
+.topbox{
+    margin-top: 7%;
+    margin-left: 12%;
+    margin-right: 0;
+}
+
+
+.half-wid img{
+    position: relative;
+    width: 82%;
+}
+
+
+.top{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+p{
+    margin-bottom: 25px;
+    color: dimgray;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.hire-me{
+    color: aliceblue;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: orange;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-image: linear-gradient(45deg, rgb(200, 99, 247), rgb(255, 75, 75));
+}
+
+
+
+
+.midbox-img{
+    margin-left: 12%;
+    margin-right: 0;
+}
+
+.midbox{
+    margin-top: 12%;
+    margin-left: 0;
+}
+
+.mid{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    max-height: fit-content;    
+}
+
+.download-resume{
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: orange;
+    border-radius: 5px;
+    padding: 10px 5px;
+    background-image: linear-gradient(45deg, rgb(0, 238, 255), rgb(0, 219, 73));
+    font-size: 99%;
+}
+
+
+
+.latest-work{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100%;
+    height: 600px;
+    padding: 1% 0;
+    align-items: center;
+    
+}
+
+.Latest-Work{
+    text-align: center;
+}
+
+.work_img{
+    width: 30%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 20px;
+    float: left;
+    margin: 1.6%;
+
+}
+
+.indviual-img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+
+
+.bottom{
+        background-image: url("images/footer-bg.png");
+        background-repeat: no-repeat;
+        display: inline-block;
+        width: 60%;
+        padding: 2% 20%;
+        height: 600px;
+        position: center;
+        background-position-y: center;
+
+        text-align: center;
+        color: rgb(34, 54, 46);
+}
+.bottom p{
+    text-align: center;
+}
+
+.spacing{
+    margin-bottom: 5%;
+}
+
+.quote{
+    width: 50%;
+    margin: 0 25%;
+    font-weight: 400;
+    color: rgb(0, 51, 40);
+}
